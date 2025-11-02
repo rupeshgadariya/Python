@@ -1,0 +1,20 @@
+# 1. Write a python script to print all the keywords on the screen.
+import keyword
+print(keyword.kwlist,end='\n\n\n')
+
+# 2. Use help section on python shell to see all the keywords.
+# 3. Create two Python files A0.py and A1.py. Create a variable in A1.py and assign some
+#    value to it. Write a Python script to import A1 module in A0 and print value of the
+#    variable created in A0.py
+from sample import *
+print(Roll_no,name,study,marks,sep='    ')
+
+# 4. Out of all the keywords, name those keywords which are used as data.
+from keyword import *
+print(softkwlist)
+
+# 5. What is the use of del keyword?
+x = 5006
+print(x)
+del x     # del keyword are use for free of variable 
+print(x)
