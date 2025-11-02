@@ -1,0 +1,30 @@
+# 1. Write a python script containing a variable with some integer value, print value of
+#    this variable.
+x = 14
+print(x)
+
+# 2. Write a python script to print the value of a variable. Variable contains your name
+#    as data.
+x = "Rupesh kumar"
+print(x)
+
+# 3. Write a python script to print values of three variables, each in a new line. All
+#    three variables are filled with some integer values.
+x=5  # x,y,x = 5,"Rupesh kumar",90.41
+y = "rupesh kumar"
+z=96.33
+print(x,y,z,sep='\n')
+
+# 4. Create 5 variables each of them containing different types of data (like 35, True,
+#    "MySirG", 5.46, 3+4j, etc). Write a python script to print values of all the 
+#    variables along with their data types.
+a,b,c,d,e = 35, True,"Rupesh kumar",5.14,4+5j,
+print(a,type(a),b,type(b),c,type(c),d,type(d),e,type(e), sep='  ')
+
+# 5. Create three variables and assign current date to them, first variable contains day
+#    number, second variable contains month number and third variable contains year
+#    number. Write a python script to display date in standard way (e.g. 29/11/2022)
+d = 29 
+m=11 
+y=2022
+print(d,m,y,sep='/')
