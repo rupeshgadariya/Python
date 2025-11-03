@@ -1,0 +1,24 @@
+# 1. Write a python script to convert a number into str type.
+x = 25
+print(type(x),x)
+x = str(x)
+print(type(x),x)
+
+# 2. Write a python script to print Unicode of the character 'm'
+x = 'm'
+print(ord(x))
+
+# 3. Write a python script to print character representation of a given unicode 100.
+x= 100
+print(chr(x))
+
+# 4. Write a python script to convert a str type data into an int type. Also describe
+#    when a str type value is not possible to convert into an int type.
+x = '252'
+y = int(x)
+print(y)
+
+# 5. How to convert an integer value into a bool value?
+x = 0
+y = bool(x)
+print(y)
