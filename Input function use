@@ -1,0 +1,28 @@
+#              Input from keyboard
+
+# 1. Write a python script to take your name as input from the user and then print it
+
+name = input("Enter your name ")
+print(name)
+
+# 2. Write a python script to take input two numbers form the user, then calculate their 
+#    sum and display the result.
+
+x = int(input("Enter first number "))
+y = int(input("Enter second number "))
+print("sum of two number",x+y)
+
+# 3. Write a python script which takes the radius from the user and display area of the circle.
+
+radius = float(input("Enter radius : "))
+print("Area of circle : ",3.14*radius*radius)
+
+# 4. Write a python script to calculate square of a number. Number is entered by the user.
+
+x = int(input("Enter a number "))
+print("Square of",x,'is',x*x)
+
+# 5. Write a python script which takes a character from the user and display its unicode.
+
+ch = input("Enter a character : ")
+print(ord(ch))
