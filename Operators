@@ -1,0 +1,37 @@
+#               Operators
+
+# 1. Write a python script to remove the last digit from a given number. (for example,
+#    if user enters 2534 then your output should be 253)
+
+number = int(input("Enter a value "))
+number //= 10
+print(number)
+
+# 2. Write a python script to get the last digit from a given number. (for example, if
+#    user enters 2089 then your output should be 9)
+
+number = int(input("Enter a value "))
+number %= 10
+print(number)
+
+# 3. Write a python script to swap data of two variables
+
+x = int(input("Enter a number "))
+y = int(input("Enter a number "))
+temp = x
+x = y           # x,y = y,x
+y = temp
+print(x,y)
+
+# 4. Write a python script which takes a three digit number from the user and displays
+#    only its first digit.
+
+x = int(input("Enter three digit number "))
+print(x//100)
+
+# 5. Write a python script which takes a three digit number from the user and displays
+#    only its middle digit.
+
+x = int(input("Enter three digit number "))
+x //=10
+print(x%10)
