@@ -1,0 +1,37 @@
+# 1. Write a python script to calculate simple interest.
+
+amount = float(input("Enter your amount : "))
+rate = float(input("Enter a rate "))
+period = int(input("Enter a period of time "))
+
+result = (amount * rate * period )/100.0
+print("Simple Interest : ",result)
+
+# 2. Write a python script to calculate area of a rectangle.
+
+lenght = int(input("Enter a lenght of rectangle "))
+width = int(input("Enter a width "))
+print("Area of rectangle :",lenght*width)
+
+# 3. Write a python script to calculate average of three numbers entered by user.
+
+x = int(input("Enter a first number "))
+y = int(input("Enter a second number "))
+z = int(input("Enter a third number "))
+result = (x+y+z)/3.0
+print("Average of three number ",result)
+
+# 4. Write a python script to calculate volume of a cuboid.
+
+lenght = int(input("Enter a lenght "))
+width = int(input("Enter a width "))
+heigth = int(input("Enter a height "))
+print("Calculate volume of a cuboid",lenght*width*heigth)
+
+
+# 5. Write a python script to take two numbers from user (say x and y), now calculate
+#    x power y and display the result.
+
+x = int(input("Enter a value "))
+y = int(input("Enter a value "))
+print("Calculate xy :",x**y)
