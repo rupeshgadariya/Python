@@ -1,0 +1,57 @@
+#                    Decision Control
+# 1. Write a python script to check whether a given number is a three digit number or not.
+num = int(input("Enter a number : "))
+
+if num//1000 == 0 and num //100 != 0 :
+    print("Yes three digit number")
+else :
+    print("No three digit number")
+
+# 2. Write a python script to check whether a given number is positive, negative or zero.
+num = int(input("Enter a number "))
+if num>0:
+    print("Positive number ")
+elif num < 0:
+    print("Negative number ")
+else:
+    print("Zero number")
+    
+# 3. Write a python script to check whether a given quadratic equation has two real & 
+#    distinct roots, real & equal roots or imaginary roots
+a = int(input("Enter value of a = "))
+b = int(input("Enter value of b = "))
+c = int(input("Enter value of c = "))
+discriminant = b**2 - 4*a*c
+if discriminant>0:
+    print("real & different roots")
+elif discriminant==0:
+    print("real & equal roots")
+else:
+    print("Imaginary roots")
+
+# 4. Write a python script to check whether a given year is a leap year or not.
+year = int(input("Enter a year "))
+if year%100:
+    if year%4:
+        print("Not leap year ")
+    else:
+        print("Leap year")
+else:
+    if year%400:
+        print("Not leap year ")
+    else:
+        print("Leap year")    
+
+# 5. Write a python script to print greater among three numbers. Print number only once
+#    even if the numbers are the same.
+first = int(input("Enter a number "))
+second = int(input("Enter a number "))
+third = int(input("Enter a number "))
+
+if first>second and first>third:
+    print(first)
+elif second>third:
+    print(second)
+else:
+    print(third)
+    
