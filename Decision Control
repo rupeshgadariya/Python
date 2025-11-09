@@ -1,0 +1,39 @@
+#                 Decision Control
+# 1. Write a python script to check whether a given number is positive or non-positive
+x = int(input("Enter a number "))
+if (x>0):
+    print("Positive")
+if x<=0:
+    print("Non Positive")
+
+# 2. Write a python script to check whether a given number is divisible by 5 or not
+x = int(input("Enter a number "))
+if x%5==0:
+    print("This number is divisible by 5")
+if x%5!=0:
+    print("This number is not divisible by 5")
+
+# 3. Write a python script to check whether a given number is even or odd
+x = int(input("Enter a number "))
+if x%2:
+    print("Odd")
+if x%2==0:
+    print("Even")
+
+# 4. Write a python script to print greater between two numbers. Print number only
+#    once even if the numbers are the same.
+x = int(input("Enter a number "))
+y = int(input("Enter a number "))
+if x>=y:
+    print(x)
+if x<y:
+    print(y)
+
+# 5. Write a python script to print two given words in dictionary order
+x = input("Enter a string ")
+y = input("Enter a string ")
+
+if x>y:
+    print(y,x)
+if x<=y:
+    print(x,y)
