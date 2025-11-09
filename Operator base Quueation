@@ -1,0 +1,27 @@
+# 1. Write a python script to print True if the string 'my' is a member in a string 
+#    entered by user. 
+s = input("Enter a string: ")
+
+if "my" in s:
+    print(True)
+else:
+    print(False)
+
+# 2. Write a python script to input two strings from the user and display whether the
+#    two variables referred to the same object or not. Print True or False.
+
+x = input("Enter a string ")
+check = input("Enter a string for check ")
+print(check in x)
+
+# 3. What will be the output of the python expression 5>10<5?
+
+print(5>10<5)
+
+# 4. What will be the output of the python expression "Red" and "White"?
+
+print("Red" and "White")
+
+# 5. What will be the output of the python expression True or False ?
+
+print(True or False)
