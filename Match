@@ -1,0 +1,68 @@
+#                   Match
+# 1. Write a python script to make a menu driven program in which user has to choose one 
+#    of the option from four given options - 1) Odd-Even, 2) positive - Non Positive, 3) 
+#    Simple Interest and 4) find roots of quadratic equation. Match and execute appropriate
+#    code on user selection.
+print("1 Odd-even \n2 Positive - Non Positive \n3 Simple Interest \n4 find roots" \
+        " of quadratic equation")
+choose = int(input("Choose : "))
+match choose:
+    case 1:
+        num = int(input("Enter a number "))
+        if num%2:
+            print("Odd number")
+        else:
+            print("Even number")
+    case 2:
+        num = int(input("Enter a number "))
+        if num>0:
+            print("Positive number")
+        else:
+            print("Non Positive number")
+    case 3:
+        amount = float(input("Enter your amount : "))
+        rate = float(input("Enter a rate "))
+        period = int(input("Enter a period of time "))
+        result = (amount * rate * period )/100.0
+        print("Simple Interest : ",result)       
+    case 4:
+        a = int(input("Enter value of a = "))
+        b = int(input("Enter value of b = "))
+        c = int(input("Enter value of c = "))
+        discriminant = b**2 - 4*a*c
+        if discriminant>0:
+            print("real & different roots")
+        elif discriminant==0:
+            print("real & equal roots")
+        else:
+            print("Imaginary roots")
+    case _:        
+        print("Invalid")
+
+# 2. Write a python script to take one data from user and evaluate the type of data. If the
+#    data is of int type then print Monday, if the data is of float type then print Tuesday,
+#    if the data is of complex type then print Wednesday, if the data is of type bool then 
+#    print Thursday.
+x = eval(input("Enter a data : "))
+match x:
+    case x if type(x)==type(1):
+        print("Monday")
+    case x if type(x)==type(1.0):
+        print("Tuesday")
+    case x if type(x)==type(1 + 1j):
+        print("Wednesday")
+    case x if type(x)==type(True):
+        print("Thursday")
+        
+
+# 3. Write a python script to take a string from the user. If the string is a part of "mysirg"
+#    then print "One", if the string is a part of "education" then print "Two" and if the 
+#    string is a part of "services" then print "Three".
+str = input("Enter a string : ")
+match str:
+    case str if str=="mysirg":
+        print("One")
+    case str if str=="education":
+        print("Two")
+    case str if str=="services":
+        print("Three")
