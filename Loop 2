@@ -1,0 +1,34 @@
+# 1. Write a python script to print MySirG N times on the screen
+num = int(input("Enter a number : "))
+while num >= 1:
+    print("MySirG",end='  ')
+    num -=1
+
+# 2. Write a python script to print first N natural numbers
+num = int(input("Enter a number : "))
+i = 1
+while num >= 1:
+    print(i, end='  ')
+    i +=1
+    num -=1
+
+# 3. Write a python script to print first N natural numbers in reverse order
+num = int(input("Enter a number : "))
+while num >= 1:
+    print(num, end='    ')
+    num -=1
+
+# 4. Write a python script to print first N odd natural numbers
+num = int(input("Enter a number : "))
+i = 1
+while num >= 1:
+    print(i, end='  ')
+    i += 2
+    num -= 1
+
+# 5. Write a python script to print first N odd natural numbers in reverse order
+num = int(input("Enter a number : "))
+i = num*2-1
+while i >= 1:
+    print(i, end='  ')
+    i -= 2
