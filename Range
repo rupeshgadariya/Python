@@ -1,0 +1,25 @@
+#                for loop and range
+# 1. Write a python script to print the first 10 multiples of 5.
+for s in range(5,10*5+1,5):
+    print(s,end='   ')
+
+# 2. Write a python script to print first 10 multiples of N
+n = int(input("Enter a number "))
+for s in range(n,n*10+1,n):
+    print(s,end='   ')    
+
+# 3. Write a python script to print first M multiples of N.
+n = int(input("Enter a multiple of "))
+m = int(input("how many number "))
+for s in range(n,m*n+1,n):
+    print(s,end='   ')    
+
+# 4. Write a python script to print the first 10 multiples of N in reverse order.
+n = int(input("Enter a number "))
+for s in range(n*10,n-1,-n):
+    print(s,end='   ')
+
+# 5. Write a python script to print table of user's choice
+n = int(input("Enter print a table "))
+for s in range(n,n*10+1,n):
+    print(s)
